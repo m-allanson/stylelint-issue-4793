@@ -1,0 +1,21 @@
+{
+  "name": "stylelint-issue-4793",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "s": "stylelint \"*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-standard": "20.0.0"
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-standard"
+    ]
+  }
+}
